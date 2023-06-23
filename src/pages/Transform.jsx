@@ -33,6 +33,7 @@ export const Transform = () => {
       decimal: "",
       type: types[0].value,
     },
+    validateOnBlur: false,
     validate,
     onSubmit: ({ binary, decimal, type }) => {
       console.log({ binary, decimal, type })

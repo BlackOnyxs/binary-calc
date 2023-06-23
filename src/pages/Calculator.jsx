@@ -36,6 +36,7 @@ export function Calculator() {
       second: "",
       operator: operators[0].value,
     },
+    validateOnBlur: false,
     validate,
     onSubmit: ({ first, second, operator }) => {
       switch (operator) {
