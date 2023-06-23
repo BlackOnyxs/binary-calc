@@ -12,8 +12,8 @@ export const NavBar = () => {
           <MenuOutlined />
         </IconButton>
         <Link href="/" display="flex" alignItems="center" underline="none">
-          <Typography variant="h6">Binary |</Typography>
-          <Typography sx={{ ml: 0.5 }}>Calc</Typography>
+          <Typography color='white'variant="h6">Binary |</Typography>
+          <Typography color='white'sx={{ ml: 0.5 }}>Calc</Typography>
         </Link>
       </Toolbar>
     </AppBar>
