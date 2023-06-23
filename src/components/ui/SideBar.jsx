@@ -56,7 +56,7 @@ export const SideBar = () => {
         <Divider />
         {/* * TODO: Social Media  */}
 
-        <Link href="" underline="none">
+        <Link href="https://github.com/BlackOnyxs/binary-calc" underline="none">
           <ListItemButton>
             <ListItemIcon>
               <GitHub />
